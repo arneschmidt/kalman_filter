@@ -6,10 +6,10 @@ Here, the localization is limited to one dimension: A robot drives towards a wal
 The noisy signal of the ultrasonic sensor is filtered with the Kalman filter to obtain the distance estimation. It can be mathematically proven that this estimation minimizes the expected squared error (and other interesting properties).
 
 ![Robot](/pictures/robot.jpg)
-The robot used for the distance measurements.
+Figure 1: The robot used for the distance measurements.
 
 ![Robot](/pictures/measurements.jpg)
-The distance measurements and the smoothed signal obtained by the Kalman filter.
+Figure 2: The distance measurements and the smoothed signal obtained by the Kalman filter.
 
 ## Contents
 * `KalmanFilter.ino` : Arduino code for the robot. Controls the motors and sends the distance measurements.
